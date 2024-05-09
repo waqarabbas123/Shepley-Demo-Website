@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 12px;
+  background-color: whitesmoke;
+}
+
+nav .logo h3 {
+  margin-left: 140px;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(48, 47, 47);
+}
+
+nav ul {
+  display: flex;
+  padding-right: 90px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 45px;
+}
+.last-li {
+  margin-right: 70px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(48, 47, 47);
+}
+nav ul li a:hover {
+  color: rgb(19, 101, 207);
+  transition: all ease 0.3s;
+}
+.srch {
+  font-size: 20px;
+}
+
+/* ---------------------second portion--------------------- */
+.home {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(191, 191, 191);
+  background-image: url(/images/backfround\ img.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.home h2 {
+  text-align: center;
+  color: rgb(87, 87, 87);
+  font-weight: 100;
+  font-size: 50px;
+  padding-top: 200px;
+}
+.home p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.home .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .btns .btn {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 14px 22px;
+  font-size: 13px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(8, 80, 139);
+  color: wheat;
+}
+.home .btns .btn:hover {
+  background-color: rgb(240, 225, 8);
+  color: rgb(56, 55, 55);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+/* ------------seo section----------- */
+section .seo {
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+section .seo .img img {
+  width: 650px;
+  height: 450px;
+  padding-left: 50px;
+}
+
+section .seo .heading {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+section .seo .heading h2 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(57, 57, 57);
+}
+section .seo .heading p {
+  padding-right: 290px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(57, 57, 57);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+section .seo .heading .btn3 {
+  padding: 14px 30px;
+  font-size: 12px;
+  background-color: rgb(8, 80, 139);
+
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+/* ----------------porfolio----------- */
+section .porfolio {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+section .porfolio .img img {
+  width: 650px;
+  height: 450px;
+  padding-left: 50px;
+}
+
+section .porfolio .heading {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+section .porfolio .heading h2 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(57, 57, 57);
+}
+section .porfolio .heading p {
+  padding-right: 290px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(57, 57, 57);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+section .porfolio .heading .btn3 {
+  padding: 14px 30px;
+  font-size: 12px;
+  background-color: rgb(8, 80, 139);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+/* ------------------------------paralez section------------------------- */
+.paralex {
+  width: 100%;
+  /* height: 400px; */
+  background-color: brown;
+  background-image: url(/images/water\ bg\ 2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paralex h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  color: rgb(83, 83, 83);
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.paralex .para {
+  color: rgb(173, 154, 154);
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 160px;
+  line-height: 23px;
+}
+
+.paralex .btn4 {
+  padding: 13px 43px;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: #745cf9;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.paralex .btn4:hover {
+  background-color: #b1a3ff;
+  color: rgb(77, 77, 77);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+/* ------------------------------limitness option ---------------------- */
+
+.limit {
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.limit h2 {
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.limit p {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  color: #363636;
+  line-height: 21px;
+  padding-bottom: 35px;
+}
+
+.limit .btn5 {
+  padding: 14px 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: #745cf9;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.limit .img img {
+  width: 1170px;
+  margin-bottom: 20px;
+}
+
+.latest {
+  width: 100%;
+  background-color: #292929;
+}
+
+.latest .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.latest .head h2 {
+  padding-top: 80px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #eeeeee;
+  font-weight: 100;
+}
+.latest .head p {
+  color: #e8e8e8;
+  font-size: 13px;
+  padding-bottom: 40px;
+  font-weight: 100;
+}
+
+.latest .projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+.latest .projects .pro {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
+.latest .projects .pro img {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+/* <!-- ----------------------customar sectioon----------- --> */
+
+.customsr {
+  width: 100%;
+  background-image: url(/images/bg4.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+.customsr h2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 80px;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.customsr p {
+  text-align: center;
+  color: #e6e6e6;
+  padding-left: 250px;
+  padding-right: 250px;
+  line-height: 20px;
+  padding-bottom: 40px;
+}
+
+.customsr .image {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  /* margin-top: 50px; */
+}
+
+.customsr .image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+/* <!-- ----------------------clients sectioon----------- --> */
+.client {
+  width: 100%;
+}
+.client h2 {
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  padding-top: 70px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.client .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.client .card .frist {
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 200px;
+}
+
+.client .card .frist h3 {
+  color: #3d3d3d;
+  font-size: 40px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 100;
+}
+
+.client .card .frist i {
+  color: #ffcb11;
+  padding-left: 60px;
+  font-size: 80px;
+}
+
+.theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  background-color: #d1d1d1;
+  padding: 90px 0px;
+}
+
+.theme p {
+  color: black;
+  font-size: 27px;
+}
+
+.btn5 {
+  padding: 13px 38px;
+  border-radius: 2px;
+  border: none;
+  background-color: #745cf9;
+  color: #d1d1d1;
+  text-transform: uppercase;
+}
+
+footer {
+  width: 100%;
+  background-color: #363636;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 20px;
+}
+
+footer h3 {
+  font-size: 15px;
+  color: #ffff;
+}
+footer h3 b {
+  color: #dedede;
+}
+footer h3 i {
+  color: #c5c5c5;
+}
+footer .icons {
+  display: flex;
+}
+
+footer .icon {
+  margin-left: 19px;
+}
+footer .icon i {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer .icon i:hover {
+  color: #745cf9;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
