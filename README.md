@@ -1,1 +1,1 @@
-In this repository it hava a simple clone website usin html and css
+In this repository bootstrap simple clone website using html and css
