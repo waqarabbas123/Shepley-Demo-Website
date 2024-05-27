@@ -1,1 +1,1 @@
-In this repository bootstrap simple clone website using html and css
+this is the bootstrap clone website just using html and css only.
