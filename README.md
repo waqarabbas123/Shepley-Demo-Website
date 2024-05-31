@@ -1,1 +1,1 @@
-This is the bootstrap clone website using html and css only.
+This is the Bootstrap clone webiste using html and css.
