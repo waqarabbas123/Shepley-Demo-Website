@@ -1,3 +1,2 @@
 #__bootsrap clone website
-
-In this repository i can make a bootsrap  clone website using the html and css.
+In this reposiotry i can make a clone website of bootstrap using html and css .  
